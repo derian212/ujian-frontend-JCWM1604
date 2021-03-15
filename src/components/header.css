@@ -1,0 +1,29 @@
+.header-bg {
+    background-color: #cde5f1;
+  }
+  
+  .header-brand {
+    font-size: 1.3em;
+  }
+  
+  .header-login {
+    background-color: transparent;
+    border: black solid 2px;
+  }
+  .header-login:hover {
+    border-color: #cde5f1;
+    color: #cde5f1;
+  }
+  
+  .normal-link {
+    text-decoration: none;
+  }
+  .normal-link:hover {
+    text-decoration: none;
+  }
+  
+  .tulisan {
+    color: black;
+    margin-left:70px;
+  }
+  

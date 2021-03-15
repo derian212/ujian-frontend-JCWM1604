@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bg-tombol {
+  background-color: #cde5f1;
+  background-image: linear-gradient(62deg, #cde5f1 0%, #cde5f1 100%);
+  border: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.bg-tombol:hover {
+  background-color: #cde5f1;
+  background-image: linear-gradient(62deg, #cde5f1 0%, #cde5f1 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.warna {
+  color: #cde5f1 !important;
+}
+
+/* .inp:focus {
+  outline: none !important;
+} */
+
+.form-control:focus {
+  border-color: transparent !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #cde5f1 !important;
+}
+
+.login-placeholder::placeholder {
+  color: #cde5f1 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #163033 !important;
+  font-size: 50px !important;
+}
+.slick-prev {
+  left: -50px !important;
+  z-index: 1;
+}
+.slick-dots li button:before {
+  font-size: 20px !important;
+  color: #163033 !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: black;
+}
+.garis {
+  border-top: 2px solid #cde5f1;
+}
+.garisbwh {
+  border-bottom: 2px solid #cde5f1;
 }

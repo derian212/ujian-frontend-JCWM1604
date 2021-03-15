@@ -1,37 +1,312 @@
 {
-    "products": [
-        {
-          "id": 1,
-          "name": "Nike Air Brown",
-          "img": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80",
-          "price": 1987000,
-          "stock": 8,
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
-        },
-        {
-          "id": 2,
-          "name": "Nike Air Jordan",
-          "img": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-          "price": 2543000,
-          "stock": 9,
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
-        },
+  "cart": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Air Brown",
+      "img": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80",
+      "price": 1987000,
+      "stock": 8,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+      "stok": null
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Jordan",
+      "img": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+      "price": 2543000,
+      "stock": 9,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+      "stok": null
+    },
+    {
+      "id": 3,
+      "name": "Nike Revolt",
+      "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+      "price": 1765000,
+      "stock": 6,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+      "stok": null
+    },
+    {
+      "id": 4,
+      "name": "Nike Green",
+      "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+      "price": 2143000,
+      "stock": 7,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+      "stok": -9
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234",
+      "role": "user",
+      "cart": []
+    },
+    {
+      "username": "jomblo",
+      "password": "1234an",
+      "role": "users",
+      "id": 2
+    },
+    {
+      "username": "gia@gmail.com",
+      "password": "123456an",
+      "role": "users",
+      "id": 3,
+      "cart": [
         {
           "id": 3,
           "name": "Nike Revolt",
           "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
           "price": 1765000,
           "stock": 6,
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
-        },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "username": "gias@gmail.com",
+      "password": "123456an",
+      "role": "users",
+      "id": 4,
+      "cart": []
+    },
+    {
+      "username": "giass@gmail.com",
+      "password": "12345am",
+      "role": "users",
+      "id": 5,
+      "cart": []
+    },
+    {
+      "username": "giae@gmail.com",
+      "password": "123456na",
+      "role": "users",
+      "id": 6,
+      "cart": [
         {
           "id": 4,
           "name": "Nike Green",
           "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
           "price": 2143000,
           "stock": 7,
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "stok": -9,
+          "qty": 1
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 3,
+      "tanggal": "2021-03-15T06:06:29.390Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 1,
+          "name": "Nike Air Brown",
+          "img": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80",
+          "price": 1987000,
+          "stock": 8,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "qty": 7
         }
       ],
-      "users" : []
+      "bankId": 0,
+      "bukti": "",
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "tanggal": "2021-03-15T07:20:21.605Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 4,
+          "name": "Nike Green",
+          "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+          "price": 2143000,
+          "stock": 7,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "qty": 5
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "tanggal": "2021-03-15T07:20:34.891Z",
+      "status": "belum bayar",
+      "products": [],
+      "bankId": 0,
+      "bukti": "",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "tanggal": "2021-03-15T07:21:28.355Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 4,
+          "name": "Nike Green",
+          "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+          "price": 2143000,
+          "stock": 7,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "stok": null,
+          "qty": 1
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "tanggal": "2021-03-15T07:23:35.151Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 4,
+          "name": "Nike Green",
+          "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+          "price": 2143000,
+          "stock": 7,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "stok": -1,
+          "qty": 1
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "tanggal": "2021-03-15T07:24:55.646Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 3,
+          "name": "Nike Revolt",
+          "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+          "price": 1765000,
+          "stock": 6,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "qty": 2
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "tanggal": "2021-03-15T07:51:43.320Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 4,
+          "name": "Nike Green",
+          "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+          "price": 2143000,
+          "stock": 7,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "stok": -2,
+          "qty": 2
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "tanggal": "2021-03-15T07:59:31.409Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 4,
+          "name": "Nike Green",
+          "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+          "price": 2143000,
+          "stock": 7,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "stok": -4,
+          "qty": 1
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "tanggal": "2021-03-15T08:06:06.019Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 2,
+          "name": "Nike Air Jordan",
+          "img": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+          "price": 2543000,
+          "stock": 9,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "qty": 1
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "tanggal": "2021-03-15T08:26:59.880Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 4,
+          "name": "Nike Green",
+          "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+          "price": 2143000,
+          "stock": 7,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "stok": -5,
+          "qty": 2
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "tanggal": "2021-03-15T08:32:15.602Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "id": 4,
+          "name": "Nike Green",
+          "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+          "price": 2143000,
+          "stock": 7,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. ",
+          "stok": -7,
+          "qty": 2
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 11
+    }
+  ]
 }
